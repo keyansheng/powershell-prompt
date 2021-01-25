@@ -23,9 +23,11 @@ function prompt {
         $GitTitle = " -$Git"
     }
 
-    $Spotify = (
-        Get-Process Spotify | Where-Object MainWindowTitle -Match ' - '
-    ).MainWindowTitle
+    $Spotify = " $(
+        Get-Process Spotify |
+        Where-Object MainWindowTitle -Match ' - ' |
+        Select-Object -ExpandProperty MainWindowTitle
+    )"
 
     $LastCommand = Get-History -Count 1
     $ExecutionTime = $LastCommand.EndExecutionTime - $LastCommand.StartExecutionTime
