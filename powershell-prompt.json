@@ -1,9 +1,9 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/keyansheng/powershell-prompt",
     "license": "MIT",
-    "url": "https://github.com/keyansheng/powershell-prompt/releases/download/v1.0.0/powershell-prompt.psm1",
-    "hash": "ad88323c28e59d803e7090a31b4588d3b2515444f75fb4b334d39012e52b79a8",
+    "url": "https://github.com/keyansheng/powershell-prompt/releases/download/v1.0.1/powershell-prompt.psm1",
+    "hash": "92c4795c89c979430b30fa2dafbea862d3d5bfb9b2c3c7f59d6ae32b1c2dbf4e",
     "psmodule": {
         "name": "powershell-prompt"
     },
