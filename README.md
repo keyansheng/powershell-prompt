@@ -29,10 +29,10 @@
 
 ```powershell
 # Install
-git clone https://github.com/keyansheng/powershell-prompt ~\Documents\WindowsPowerShell\Modules\powershell-prompt
+git clone https://github.com/keyansheng/powershell-prompt $HOME\Documents\WindowsPowerShell\Modules\powershell-prompt
 
 # Update
-Set-Location ~\Documents\WindowsPowerShell\Modules\powershell-prompt
+Set-Location $HOME\Documents\WindowsPowerShell\Modules\powershell-prompt
 git pull
 ```
 
