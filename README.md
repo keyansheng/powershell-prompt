@@ -32,8 +32,7 @@
 git clone https://github.com/keyansheng/powershell-prompt $HOME\Documents\WindowsPowerShell\Modules\powershell-prompt
 
 # Update
-Set-Location $HOME\Documents\WindowsPowerShell\Modules\powershell-prompt
-git pull
+git -C $HOME\Documents\WindowsPowerShell\Modules\powershell-prompt pull
 ```
 
 # Install/Update ([Scoop](https://scoop.sh/))
